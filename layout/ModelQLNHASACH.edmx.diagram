@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ec4767b5eb1c40208373b77750e4c775" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="QLnhasachModel.CTHD" Width="1.5" PointX="7.5" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLnhasachModel.DSCONGVIEC" Width="1.5" PointX="7.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLnhasachModel.DSGIAMGIA" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLnhasachModel.HOADON" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLnhasachModel.KHACHHANG" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLnhasachModel.KHUYENMAI" Width="1.5" PointX="5.25" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLnhasachModel.NHANVIEN" Width="1.5" PointX="3" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLnhasachModel.PHANLOAI" Width="1.5" PointX="7.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLnhasachModel.SACH" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLnhasachModel.SANPHAM" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLnhasachModel.TAIKHOAN" Width="1.5" PointX="9.75" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="QLnhasachModel.FK_HOADON_CTHD" ManuallyRouted="false" />
+        <AssociationConnector Association="QLnhasachModel.FK_KHUYENMAI_CTHD" ManuallyRouted="false" />
+        <AssociationConnector Association="QLnhasachModel.FK_SANPHAM_CTHD" ManuallyRouted="false" />
+        <AssociationConnector Association="QLnhasachModel.FK_DSGIAMGIA_SP" ManuallyRouted="false" />
+        <AssociationConnector Association="QLnhasachModel.FK_KHUYENMAI_DS" ManuallyRouted="false" />
+        <AssociationConnector Association="QLnhasachModel.FK_HOADON_KH" ManuallyRouted="false" />
+        <AssociationConnector Association="QLnhasachModel.FK_HOADONNV" ManuallyRouted="false" />
+        <AssociationConnector Association="QLnhasachModel.FK_SACH_SANPHAM" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

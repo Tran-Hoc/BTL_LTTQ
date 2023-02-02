@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quan ly nha sach", "layout\Quan ly nha sach.csproj", "{8186158C-E339-4939-9DA9-17D3577A0E21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8186158C-E339-4939-9DA9-17D3577A0E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8186158C-E339-4939-9DA9-17D3577A0E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8186158C-E339-4939-9DA9-17D3577A0E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8186158C-E339-4939-9DA9-17D3577A0E21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B282EAA7-7624-46DB-9B7B-92DF065096FD}
+	EndGlobalSection
+EndGlobal
